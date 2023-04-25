@@ -1,0 +1,322 @@
+@charset "UTF-8";
+@media (hover: hover) {
+  #content {
+    /* 오류페이지 */
+  }
+  #content.pageError .errorWrap .errorMsg .link a:hover.gray, #content.pageError .errorWrap .errorMsg .link a:focus-visible.gray {
+    background-color: #97a0aa;
+  }
+  #content.pageError .errorWrap .errorMsg .link a:hover.blue, #content.pageError .errorWrap .errorMsg .link a:focus-visible.blue {
+    background-color: #042947;
+  }
+  #header #gnb:hover .dep2, #header #gnb:focus-visible .dep2 {
+    max-height: 600px;
+    padding: 25px 40px;
+  }
+  #header #gnb ul li > span.link:hover, #header #gnb ul li > span.link:focus-visible, #header #gnb ul li > a.link:hover, #header #gnb ul li > a.link:focus-visible {
+    background-image: url("../images/common/ico-link-hover.svg");
+  }
+  #header #gnb ul li > span:hover:before, #header #gnb ul li > span:focus-visible:before, #header #gnb ul li > a:hover:before, #header #gnb ul li > a:focus-visible:before {
+    width: 100%;
+    background: #E4032E;
+  }
+  #header #gnb .dep2 > li.hasDep > a:hover .box:before, #header #gnb .dep2 > li.hasDep > a:focus-visible .box:before {
+    background: #E4032E;
+  }
+  #header #gnb .dep2 > li.hasDep > a:hover .box:after, #header #gnb .dep2 > li.hasDep > a:focus-visible .box:after {
+    transform: translate(-50%, -50%) rotate(-90deg);
+    opacity: 0;
+    background: #E4032E;
+  }
+  #header #gnb .dep2 > li > span:hover, #header #gnb .dep2 > li > span:focus-visible, #header #gnb .dep2 > li > a:hover, #header #gnb .dep2 > li > a:focus-visible {
+    color: #E4032E;
+  }
+  #header #gnb .dep3 > li > span:hover:before, #header #gnb .dep3 > li > span:focus-visible:before, #header #gnb .dep3 > li > a:hover:before, #header #gnb .dep3 > li > a:focus-visible:before {
+    background-color: #575757;
+  }
+  #header .btnGroup .btnSitemap:hover .line:first-of-type, #header .btnGroup .btnSitemap:focus-visible .line:first-of-type {
+    width: 100%;
+  }
+  #header .btnGroup .btnSitemap:hover .line:nth-of-type(3), #header .btnGroup .btnSitemap:focus-visible .line:nth-of-type(3) {
+    width: 50%;
+  }
+  #lnb .dep1 li:hover, #lnb .dep1 li:focus-visible {
+    font-family: "Noto Sans Bold";
+    color: #000;
+  }
+  #lnb .dep1 li:hover a.link, #lnb .dep1 li:focus-visible a.link {
+    background-image: url("../images/common/ico-link-hover.svg");
+  }
+  #lnb .dep1 li.active:hover, #lnb .dep1 li.active:focus-visible {
+    color: #E4032E;
+  }
+  #lnb .dep1 li.hasDep .box:hover:before, #lnb .dep1 li.hasDep .box:focus-visible:before {
+    background: #E4032E;
+  }
+  #lnb .dep1 li.hasDep .box:hover:after, #lnb .dep1 li.hasDep .box:focus-visible:after {
+    transform: translate(-50%, -50%) rotate(-90deg);
+    opacity: 0;
+    background: #E4032E;
+  }
+  #lnb .dep1 li .dep2 li:hover, #lnb .dep1 li .dep2 li:focus-visible {
+    background: #DAE2E2;
+  }
+  #lnb .dep1 li .dep2 li.active:hover, #lnb .dep1 li .dep2 li.active:focus-visible {
+    background: #E4032E;
+  }
+  #footer .btnTop:hover, #footer .btnTop:focus-visible {
+    background-color: #222222;
+  }
+  #footer .comboBox ul li a:hover, #footer .comboBox ul li a:focus-visible {
+    color: #fff;
+    text-decoration: underline;
+  }
+  #footer .social .btnSocial:hover, #footer .social .btnSocial:focus-visible {
+    background-color: #003764;
+  }
+  .visual .noticeWrap .noticeBox .board ul li a:hover, .visual .noticeWrap .noticeBox .board ul li a:focus-visible {
+    text-decoration: underline;
+    color: #fff;
+  }
+  .quickArea .round:hover, .quickArea .round:focus-visible {
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.16);
+  }
+  .quickArea .round:hover > span.left:before, .quickArea .round:focus-visible > span.left:before {
+    transform: rotate(0);
+    transition: 0.3s 0.3s linear;
+  }
+  .quickArea .round:hover > span.right:before, .quickArea .round:focus-visible > span.right:before {
+    transform: rotate(360deg);
+    transition: 0.3s linear;
+  }
+  .quickArea .round.type01 a:hover, .quickArea .round.type01 a:focus-visible {
+    background-image: url("../images/main/ico-quick-01-hover.svg");
+  }
+  .quickArea .round.type02 a:hover, .quickArea .round.type02 a:focus-visible {
+    background-image: url("../images/main/ico-quick-02-hover.svg");
+  }
+  .quickArea .round.type03 a:hover, .quickArea .round.type03 a:focus-visible {
+    background-image: url("../images/main/ico-quick-03-hover.svg");
+  }
+  .quickArea .round.type04 a:hover, .quickArea .round.type04 a:focus-visible {
+    background-image: url("../images/main/ico-quick-04-hover.svg");
+  }
+  .slideArea .controlGroup a:hover, .slideArea .controlGroup a:focus-visible {
+    background-color: #003764;
+  }
+  .slideArea .controlGroup button:hover, .slideArea .controlGroup button:focus-visible {
+    background-color: #003764;
+  }
+  .labelContainer .btnMapView:hover, .labelContainer .btnMapView:focus-visible {
+    background-color: #003764;
+  }
+  .introArea .swiper .swiper-button-prev {
+    background-image: url("../images/main/ico-swiper-prev-hover.svg");
+  }
+  .introArea .swiper .swiper-button-next {
+    background-image: url("../images/main/ico-swiper-next-hover.svg");
+  }
+  .introArea .swiper-slide {
+    width: 329px;
+  }
+  .introArea .swiper-slide:hover, .introArea .swiper-slide:focus-visible {
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+  }
+  .introArea .swiper-slide:hover > span:first-of-type, .introArea .swiper-slide:focus-visible > span:first-of-type {
+    left: 0;
+    top: 0;
+    transition: 0.3s;
+    width: 100%;
+  }
+  .introArea .swiper-slide:hover > span:nth-of-type(2), .introArea .swiper-slide:focus-visible > span:nth-of-type(2) {
+    right: 0;
+    bottom: 0;
+    transition: 0.3s;
+    width: 100%;
+  }
+  .introArea .swiper-slide:hover > span:nth-of-type(3), .introArea .swiper-slide:focus-visible > span:nth-of-type(3) {
+    right: 0;
+    top: 0;
+    transition: 0.3s 0.3s;
+    height: 100%;
+  }
+  .introArea .swiper-slide:hover > span:nth-of-type(4), .introArea .swiper-slide:focus-visible > span:nth-of-type(4) {
+    left: 0;
+    bottom: 0;
+    transition: 0.3s 0.3s;
+    height: 100%;
+  }
+  .introArea .swiper-slide:hover img, .introArea .swiper-slide:focus-visible img {
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+  .introArea .swiper-slide:hover .txtBox, .introArea .swiper-slide:focus-visible .txtBox {
+    height: calc(100% - 290px);
+    top: 290px;
+  }
+  .introArea .swiper-slide:hover .txtBox .tit:after, .introArea .swiper-slide:focus-visible .txtBox .tit:after {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .introArea .swiper-slide:hover .txtBox > .inner, .introArea .swiper-slide:focus-visible .txtBox > .inner {
+    padding-top: 79px;
+  }
+  .introArea .swiper-slide:hover .txtBox p, .introArea .swiper-slide:focus-visible .txtBox p {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .table.type01 table tbody tr:hover td.title, .table.type01 table tbody tr:focus-visible td.title {
+    color: #188FEF;
+  }
+  .pagination .btnPagi:hover, .pagination .btnPagi:focus-visible {
+    background-color: #003764;
+    border: 1px solid #003764;
+  }
+  .pagination .btnPagi:hover.prev, .pagination .btnPagi:focus-visible.prev {
+    background-image: url("../images/common/ico-arrow-prev-hover.svg");
+  }
+  .pagination .btnPagi:hover.next, .pagination .btnPagi:focus-visible.next {
+    background-image: url("../images/common/ico-arrow-next-hover.svg");
+  }
+  .pagination .btnPagi:hover.first, .pagination .btnPagi:focus-visible.first {
+    background-image: url("../images/common/ico-arrow-first-hover.svg");
+  }
+  .pagination .btnPagi:hover.last, .pagination .btnPagi:focus-visible.last {
+    background-image: url("../images/common/ico-arrow-last-hover.svg");
+  }
+  .tabContWrap.type02 .swiper-button-prev:hover, .tabContWrap.type02 .swiper-button-prev:focus-visible {
+    background-image: url("../images/main/ico-swiper-prev-hover.svg");
+  }
+  .tabContWrap.type02 .swiper-button-next:hover, .tabContWrap.type02 .swiper-button-next:focus-visible {
+    background-image: url("../images/main/ico-swiper-next-hover.svg");
+  }
+  .cardList .item:hover, .cardList .item:focus-visible {
+    border-color: transparent;
+    background-color: #fff;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.16);
+  }
+  .cardList .item a:hover, .cardList .item a:focus-visible {
+    background-color: #003764;
+  }
+  .ico.icoFile:hover, .ico.icoFile:focus-visible {
+    background-image: url("../images/common/ico-file-hover.svg");
+  }
+  .cardArea .item:hover .imgArea, .cardArea .item:focus-visible .imgArea {
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25);
+  }
+  .cardArea .item:hover .imgArea img, .cardArea .item:focus-visible .imgArea img {
+    transform: scale(1.1);
+  }
+  .cardArea .item:hover .imgArea:after, .cardArea .item:focus-visible .imgArea:after {
+    opacity: 1;
+    visibility: visible;
+  }
+  .cardArea .item:hover .imgArea > span:nth-of-type(1), .cardArea .item:focus-visible .imgArea > span:nth-of-type(1) {
+    width: 100%;
+  }
+  .cardArea .item:hover .imgArea > span:nth-of-type(2), .cardArea .item:focus-visible .imgArea > span:nth-of-type(2) {
+    height: 100%;
+  }
+  .cardArea .item:hover .imgArea > span:nth-of-type(3), .cardArea .item:focus-visible .imgArea > span:nth-of-type(3) {
+    width: 100%;
+  }
+  .cardArea .item:hover .imgArea > span:nth-of-type(4), .cardArea .item:focus-visible .imgArea > span:nth-of-type(4) {
+    height: 100%;
+  }
+  .cardArea.type02 .item:hover, .cardArea.type02 .item:focus-visible {
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25);
+  }
+  .cardArea.type02 .item:hover > span:nth-of-type(1), .cardArea.type02 .item:focus-visible > span:nth-of-type(1) {
+    width: 100%;
+  }
+  .cardArea.type02 .item:hover > span:nth-of-type(2), .cardArea.type02 .item:focus-visible > span:nth-of-type(2) {
+    height: 100%;
+  }
+  .cardArea.type02 .item:hover > span:nth-of-type(3), .cardArea.type02 .item:focus-visible > span:nth-of-type(3) {
+    width: 100%;
+  }
+  .cardArea.type02 .item:hover > span:nth-of-type(4), .cardArea.type02 .item:focus-visible > span:nth-of-type(4) {
+    height: 100%;
+  }
+  .cardArea.type02 .item:hover .imgBox:after, .cardArea.type02 .item:focus-visible .imgBox:after {
+    opacity: 1;
+    visibility: visible;
+  }
+  .cardArea.type03 .item:hover, .cardArea.type03 .item:focus-visible {
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25);
+  }
+  .cardArea.type03 .item:hover > span:nth-of-type(1), .cardArea.type03 .item:focus-visible > span:nth-of-type(1) {
+    width: 100%;
+  }
+  .cardArea.type03 .item:hover > span:nth-of-type(2), .cardArea.type03 .item:focus-visible > span:nth-of-type(2) {
+    height: 100%;
+  }
+  .cardArea.type03 .item:hover > span:nth-of-type(3), .cardArea.type03 .item:focus-visible > span:nth-of-type(3) {
+    width: 100%;
+  }
+  .cardArea.type03 .item:hover > span:nth-of-type(4), .cardArea.type03 .item:focus-visible > span:nth-of-type(4) {
+    height: 100%;
+  }
+  .cardArea.type04 .item:hover, .cardArea.type04 .item:focus-visible {
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25);
+  }
+  .cardArea.type04 .item:hover > span:nth-of-type(1), .cardArea.type04 .item:focus-visible > span:nth-of-type(1) {
+    width: 100%;
+  }
+  .cardArea.type04 .item:hover > span:nth-of-type(2), .cardArea.type04 .item:focus-visible > span:nth-of-type(2) {
+    height: 100%;
+  }
+  .cardArea.type04 .item:hover > span:nth-of-type(3), .cardArea.type04 .item:focus-visible > span:nth-of-type(3) {
+    width: 100%;
+  }
+  .cardArea.type04 .item:hover > span:nth-of-type(4), .cardArea.type04 .item:focus-visible > span:nth-of-type(4) {
+    height: 100%;
+  }
+  .cardArea.type04 .item:hover .imgBox:after, .cardArea.type04 .item:focus-visible .imgBox:after {
+    opacity: 1;
+    visibility: visible;
+  }
+  .orgMapArea .orgBox .item span:hover, .orgMapArea .orgBox .item span:focus-visible {
+    border: 1px solid #575757;
+  }
+  .orgMapArea .orgBox .item.dep1 strong:hover, .orgMapArea .orgBox .item.dep1 strong:focus-visible {
+    background: url("../images/menu01/bg-org-dep1-hover.svg") no-repeat -3px -4px;
+  }
+  .orgMapArea .orgBox .item.dep2 strong:hover, .orgMapArea .orgBox .item.dep2 strong:focus-visible {
+    background: url("../images/menu01/bg-org-dep2-hover.svg") no-repeat -12px -4px;
+  }
+  .orgMapArea .orgBox .item.dep3 strong:hover, .orgMapArea .orgBox .item.dep3 strong:focus-visible {
+    background: url("../images/menu01/bg-org-dep3-hover.svg") no-repeat -12px -4px;
+  }
+  .orgMapArea .orgBox .item.dep4 strong:hover, .orgMapArea .orgBox .item.dep4 strong:focus-visible {
+    background: url("../images/menu01/bg-org-dep4-hover.svg") no-repeat -12px -4px;
+  }
+  .orgArea .orgBox .group a:hover, .orgArea .orgBox .group a:focus-visible {
+    border: 1px solid #000;
+  }
+  .orgArea .orgBox .group a:hover .item, .orgArea .orgBox .group a:focus-visible .item {
+    border-color: #000;
+  }
+  .orgArea .orgBox .group a:hover .item strong, .orgArea .orgBox .group a:focus-visible .item strong {
+    color: #188FEF;
+  }
+}
+@media screen and (hover: hover) and (max-width: 1420px) {
+  #header #gnb:hover .dep2 {
+    padding: 25px 20px;
+  }
+}
+@media screen and (hover: hover) and (max-width: 768px) {
+  .orgMapArea .orgBox .item.dep1 strong:hover {
+    background-size: 147px 158.5px;
+    background-position: center 1px;
+  }
+  .orgMapArea .orgBox .item.dep2 strong:hover {
+    background: #003764;
+  }
+  .orgMapArea .orgBox .item.dep3 strong:hover {
+    background: #188FEF;
+  }
+  .orgMapArea .orgBox .item.dep4 strong:hover {
+    background: #97A0AA;
+  }
+}
