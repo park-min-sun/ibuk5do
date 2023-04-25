@@ -48,10 +48,10 @@
     width: 75%;
   }
   #header > .inner > .flex {
-    width: 1200px;
+    width: 100% px;
   }
   #header #gnb .dep1 {
-    width: 1140px;
+    width: 100%;
   }
   #header #gnb .dep2 {
     padding: 0 20px;

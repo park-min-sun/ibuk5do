@@ -668,7 +668,7 @@ table th.web, table td.web {
 #header .logo {
   width: 162px;
   height: 43px;
-  background: url("/images/common/logo.svg") no-repeat center;
+  background: url("../../images/common/logo.svg") no-repeat center;
   transition: 0.4s;
 }
 #header .btnGroup {
@@ -706,7 +706,6 @@ table th.web, table td.web {
   bottom: 0;
 }
 #header .btnGroup .btnLanguage {
-  margin-right: 44px;
   padding-left: 32px;
   font-size: 18px;
   font-family: "Noto Sans Medium";
