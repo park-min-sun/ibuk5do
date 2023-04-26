@@ -1,11 +1,13 @@
 @charset "UTF-8";
-@media screen and (max-width: 1420px) {
+@media screen and (max-width: 1660px) {
   #header > .inner > .flex {
     width: 100%;
     max-width: 1640px;
+    padding: 0 20px;
   }
   #header #gnb .dep1 {
-    width: auto;
+    width: 100%;
+    max-width: 1380px;
   }
 }
 @media screen and (max-width: 1420px) {
@@ -57,7 +59,7 @@
     width: 75%;
   }
   #header > .inner > .flex {
-    width: 100% px;
+    width: 100%;
   }
   #header #gnb .dep1 {
     width: 100%;

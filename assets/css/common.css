@@ -13,7 +13,7 @@
   src: url("/fonts/NotoSansKR-Bold.otf");
 }
 @font-face {
-  font-family: "Noto Sans Medium";
+  font-family: "Noto Sans KR";
   font-style: normal;
   font-weight: 500;
   src: url("/fonts/NotoSansKR-Medium.otf");
@@ -764,7 +764,7 @@ table th.web, table td.web {
 }
 #header #gnb .dep1 > li > a {
   font-size: 19px;
-  font-family: "Noto Sans Medium";
+  font-family: "Noto Sans KR";
   color: #000;
   transition: 0.4s;
   font-weight: 500;
