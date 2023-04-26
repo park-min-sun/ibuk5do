@@ -315,7 +315,7 @@ $(document).ready(function (e) {
 
             $('.tabList li').wrapInner('<a href="javascript:void(0);"></a>');
             $('.titArea').wrapInner('<h3></h3>');
-            $('.comboBox ul li a, .kakao , .facebook').attr('title', '새 창 열림');
+            $('.comboBox ul li a, .kakao').attr('title', '새 창 열림');
 
 
             let shareList = $('.shareList .btnShareToggle');
