@@ -38,7 +38,8 @@
 
 .main_top_right{width: 650px; height: 100%; background: #F1F9FF;}
 .main_greet{padding: 30px; height: 326px;}
-.main_greet .main_greet_txt a{width: 160px; height: 40px; line-height: 40px; color: #fff; padding: 0 16px; background: var(--main_blue) url(../../images/main/ban_arrow_wh.png) no-repeat right 16px center; display: block; border-radius: 5px; font-size: 16px; margin-top: 15px;}
+.main_greet .main_greet_txt a{width: 160px; height: 40px; line-height: 40px; color: #fff; padding: 0 16px; background: var(--main_blue) url(../../images/main/ban_arrow_wh.png) no-repeat right 16px center; display: block; border-radius: 5px; font-size: 16px; margin-top: 15px; transition: all .3s;}
+.main_greet .main_greet_txt a:hover{ background: var(--main_blue) url(../../images/main/ban_arrow_wh.png) no-repeat right 30px center;}
 .main_greet h2{font-size: 40px; font-weight: 700; color: var(--main_black); margin-bottom: 10px; transition: all .3s;}
 .main_greet p{font-size: 16px;font-weight: 500; color: var(--main_black); padding-right: 62px; letter-spacing: -0.8px; word-break: keep-all;}
 .main_top_right .sns_wrap{width: 100%; background: #002B51; height: 72px; padding: 0 30px;}
@@ -82,6 +83,8 @@
 .mnw_box .sl_btn_wrap .box_next{background: url(../../images/main/box_arrow_next.png) no-repeat center;}
 .mnw_box .sl_btn_wrap .box_page{ font-size: 16px; font-weight: 700; color: #000; letter-spacing: -2px;}
 .mnw_box .sl_btn_wrap .swiper-pagination-current{color: #3D50FC;}
+.mnw_box .sl_btn_wrap .more_btn{transition: all .3s;}
+.mnw_box .sl_btn_wrap .more_btn:hover{transform: rotate(90deg);}
 
 /* 이북5도 소식 */
 

@@ -301,7 +301,7 @@
                                         <button class="swiper-button-toggle2 box_toggle" title="정지"></button>
                                         <a href="javascript:;" class="pic_news_next box_next"></a>
                                     </li>
-                                    <li><a href="javscript:;" title="사진뉴스 더보기"><img src="./images/main/more_btn_bl.png" alt=""></a></li>
+                                    <li><a class="more_btn" href="javscript:;" title="사진뉴스 더보기"><img src="./images/main/more_btn_bl.png" alt=""></a></li>
                                 </ul>
                             </div>
 
@@ -327,7 +327,7 @@
                                         <button class="swiper-button-toggle3 box_toggle" title="정지"></button>
                                         <a href="javascript:;" class="youtube_next box_next"></a>
                                     </li>
-                                    <li><a href="javscript:;" title="유튜브 더보기"><img src="./images/main/more_btn_bl.png" alt=""></a></li>
+                                    <li><a class="more_btn" href="javscript:;" title="유튜브 더보기"><img src="./images/main/more_btn_bl.png" alt=""></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -569,7 +569,6 @@
 
     // NAVER 지도
    var mapDiv = document.getElementById('map');
-
     var position = new naver.maps.LatLng(37.61392471872049, 126.95533672921894);
 
    var map = new naver.maps.Map('map', {
@@ -754,6 +753,7 @@ window.addEventListener('resize', function() {
     }
 
     });
+
 
     toggleButton2.addEventListener('click', function () {
     if (swiper2.autoplay.running) {
