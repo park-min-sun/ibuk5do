@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>이북5도위원회</title>
     <!-- Favicon -->
     <!-- Css -->
     <link rel="stylesheet" href="./css/plugin/jquery-ui.css">
@@ -568,20 +568,20 @@
 
 
     // NAVER 지도
-//    var mapDiv = document.getElementById('map');
+   var mapDiv = document.getElementById('map');
 
-//  var position = new naver.maps.LatLng(37.61392471872049, 126.95533672921894);
+    var position = new naver.maps.LatLng(37.61392471872049, 126.95533672921894);
 
-  //  var map = new naver.maps.Map('map', {
-    //    center: position,
-      //  zoom: 17
-    //});
+   var map = new naver.maps.Map('map', {
+       center: position,
+       zoom: 17
+    });
 
 
-    //var marker = new naver.maps.Marker({
-        //position: position,
-        //map: map
-    //});
+    var marker = new naver.maps.Marker({
+        position: position,
+        map: map
+    });
 
     naver.maps.Event.addListener(map, 'click', function (e) {
         marker.setPosition(e.coord);

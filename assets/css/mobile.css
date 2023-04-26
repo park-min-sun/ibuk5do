@@ -1,5 +1,14 @@
 @charset "UTF-8";
 @media screen and (max-width: 1420px) {
+  #header > .inner > .flex {
+    width: 100%;
+    max-width: 1640px;
+  }
+  #header #gnb .dep1 {
+    width: auto;
+  }
+}
+@media screen and (max-width: 1420px) {
   .mb40 {
     margin-bottom: 20px;
   }
