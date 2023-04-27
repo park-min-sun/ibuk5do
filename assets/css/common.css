@@ -1074,10 +1074,9 @@ table th.web, table td.web {
 }
 #footer .webmark {
   display: flex;
-  flex: 1;
+  margin: 0 0 0 auto;
   justify-content: flex-end;
   align-items: center;
-  margin-top: 15px;
 }
 #footer .webmark img {
   width: 80px;
