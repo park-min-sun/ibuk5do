@@ -88,7 +88,7 @@
 .mnw_box .sl_btn_wrap .swiper-pagination-current{color: #3D50FC;}
 .mnw_box .sl_btn_wrap .more_btn{transition: all .3s;}
 .mnw_box .sl_btn_wrap .more_btn:hover{transform: rotate(90deg);}
-.mnw_box .youtube_sl .swiper-slide::after{position: absolute; width: 40px; height: 30px; content: ''; background: url(/images/main/youtube_mark.png) no-repeat center / contain; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 2;}
+.mnw_box .youtube_sl .swiper-slide::after{position: absolute; width: 40px; height: 30px; content: ''; background: url(../../images/main/youtube_mark.png) no-repeat center / contain; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 2;}
 
 /* 이북5도 소식 */
 
