@@ -182,9 +182,8 @@
                             </ul>
                         </li>
                         </ul>
-                    
-                        <div class="depWrap">		
-                        </div>
+                       
+                        <!--  -->
                     </div>
                     <div class="btnGroup">
                         <button type="button" class="btnLanguage"><span>ENG</span></button>
@@ -195,6 +194,9 @@
                             <span class="hidden">사이트맵</span>
                         </button>
                     </div>
+                </div>
+
+                <div class="depWrap">		
                 </div>
             </div>
             
@@ -566,25 +568,8 @@
 
     AOS.init();
 
-
-    // NAVER 지도
-   var mapDiv = document.getElementById('map');
-    var position = new naver.maps.LatLng(37.61392471872049, 126.95533672921894);
-
-   var map = new naver.maps.Map('map', {
-       center: position,
-       zoom: 17
-    });
-
-
-    var marker = new naver.maps.Marker({
-        position: position,
-        map: map
-    });
-
-    naver.maps.Event.addListener(map, 'click', function (e) {
-        marker.setPosition(e.coord);
-    });
+  
+    
 
      // 이북5도 소식 슬라이드  
     let ww = window.innerWidth;

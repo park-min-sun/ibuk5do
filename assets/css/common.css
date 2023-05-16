@@ -644,7 +644,7 @@ table th.web, table td.web {
   left: 50%;
   top: -4px;
   transform: translateX(-50%);
-  display: block;
+  display: none;
   content: "";
   width: 1400px;
   height: 4px;
@@ -652,9 +652,13 @@ table th.web, table td.web {
 }
 #header.show #gnb .dep2 {
   max-height: 600px;
+  height: 500px;
   padding: 25px 40px;
+  opacity: 1;
+  visibility: visible;
+  
 }
-#header.show #gnb .depWrap {
+#header.show .depWrap {
   height: 500px;
 }
 #header > .inner > .flex {
@@ -726,7 +730,7 @@ table th.web, table td.web {
   transition: 0.6s ease-in-out;
 }
 #header #gnb {
-  position: relative;
+  /* position: relative; */
   width: 100%;
   margin: 0 auto;
   z-index: 100;
@@ -769,14 +773,16 @@ table th.web, table td.web {
   transition: 0.4s;
   font-weight: 500;
 }
-#header #gnb .depWrap {
+#header .depWrap {
   position: absolute;
   left: 0;
   top: 100%;
   width: 100%;
+  height: 0;
   background: #fff url("/images/common/img-gnb-back.png") no-repeat center top;
   background-size: 100% 100%;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+  transition: all .6s ease-in-out;
 }
 #header #gnb .dep2Box {
   position: relative;
@@ -806,6 +812,7 @@ table th.web, table td.web {
   overflow: hidden;
   transition: 0.6s ease-in-out;
   padding: 0 40px;
+  top: -4px;
 }
 #header #gnb .dep2 > li {
   text-align: left;
