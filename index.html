@@ -254,7 +254,7 @@
                                             </p>
                                             <a href="https://www.ibuk5do.go.kr/bord/101030.do">말씀 자료</a>
                                         </div>
-                                        <img src="./images/main/main_greetings.png" alt="위원장 이훈 사진">
+                                        <img src="./images/main/main_greetings.jpg" alt="위원장 이훈 사진">
                                     </div>
                                 </div>
                                 <div class="sns_wrap flex sb ac">
@@ -431,54 +431,41 @@
                         <ul class="main_intro_wrap mt50">
                             <li class="north_central" data-aos="fade-up" data-aos-offset="200" data-aos-delay="0" data-aos-once="true">
                                 <div class="inner_box">
-                                    <h3>한반도 중북부</h3>
-                                    <p>한반도 중북부에 위치한 <br>황해도와 평안남도를 소개합니다.</p>
-                                    <ul class="intro_btn_wrap">
-                                        <li><a href="https://www.ibuk5do.go.kr/cont/201010.do">황해도</a></li>
-                                        <li><a href="javascript:;">평안남도</a></li>
-                                    </ul>
+                                    <h3>황해도</h3>
+                                    <span class="line"></span>
+                                    <a href="https://www.ibuk5do.go.kr/cont/201010.do">바로가기</a>   
                                 </div>
                             </li>
 
                             <li class="northwest" data-aos="fade-up" data-aos-offset="200" data-aos-delay="200" data-aos-once="true">
                                 <div class="inner_box">
-                                    <h3>한반도 서북부</h3>
-                                    <p>한반도 서북부에 위치한 <br>평안북도를 소개합니다.</p>
-                                    <ul class="intro_btn_wrap">
-                                        <li><a href="https://www.ibuk5do.go.kr/cont/201010.do">황해도</a></li>
-                                        <li><a href="javascript:;">평안북도</a></li>
-                                    </ul>
+                                    <h3>평안남도</h3>
+                                    <span class="line"></span>
+                                    <a href="https://www.ibuk5do.go.kr/cont/201010.do">바로가기</a>
                                 </div>
                             </li>
 
                             <li class="northeast" data-aos="fade-up" data-aos-offset="200" data-aos-delay="400" data-aos-once="true">
                                 <div class="inner_box">
-                                    <h3>한반도 북동부</h3>
-                                    <p>한반도 북동부에 위치한 <br>함경남도를 소개합니다.</p>
-                                    <ul class="intro_btn_wrap">
-                                        <li><a href="javascript:;">함경남도</a></li>
-                                    </ul>
+                                    <h3>평안북도</h3>
+                                    <span class="line"></span>
+                                    <a href="https://www.ibuk5do.go.kr/cont/201010.do">바로가기</a>
                                 </div>
                             </li>
 
                             <li class="northernmost" data-aos="fade-up" data-aos-offset="200" data-aos-delay="600" data-aos-once="true">
                                 <div class="inner_box">
-                                    <h3>한반도 최북단</h3>
-                                    <p>한반도 북동부에 위치한 <br>함경북도를 소개합니다.</p>
-                                    <ul class="intro_btn_wrap">
-                                        <li><a href="javascript:;">함경북도</a></li>
-                                    </ul>
+                                    <h3>함경남도</h3>
+                                    <span class="line"></span>
+                                    <a href="https://www.ibuk5do.go.kr/cont/201010.do">바로가기</a>
                                 </div>
                             </li>
 
                             <li class="north_line" data-aos="fade-up" data-aos-offset="200" data-aos-delay="800" data-aos-once="true">
                                 <div class="inner_box">
-                                    <h3>휴전선 이북</h3>
-                                    <p>한반도 북동부에 위치한 <br>미수복·경기, 강원을 소개합니다.</p>
-                                    <ul class="intro_btn_wrap">
-                                        <li><a href="https://www.ibuk5do.go.kr/cont/201010.do">미수복·경기</a></li>
-                                        <li><a href="javascript:;">미수복·강원</a></li>
-                                    </ul>
+                                    <h3>함경북도</h3>
+                                    <span class="line"></span>
+                                    <a href="https://www.ibuk5do.go.kr/cont/201010.do">바로가기</a>
                                 </div>
                             </li>
                         </ul>
@@ -678,7 +665,9 @@ window.addEventListener('resize', function() {
     slidesPerView: 1,
     autoplay: {
         delay: 3000,
+        disableOnInteraction: false, // 사용자 인터랙션에 의해 자동 재생이 중단되는지 여부
     },
+    
     loop: true,
     pagination: {
         el: '.pic_news_pagination',
